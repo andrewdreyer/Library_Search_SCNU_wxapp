@@ -1,0 +1,45 @@
+.search-btn {
+  margin: 16rpx 2rpx;
+  color: white;
+  background-color: #04be02;
+  border: none;
+  font-size: 35rpx;
+  line-height: 80rpx;
+  height: 80rpx;
+}
+
+
+.input-cell {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  padding: 10rpx 0;
+  padding-top: 20rpx;
+}
+
+.input-cell-hd {
+  padding-left: 20rpx;
+  width: 210rpx;
+  font-size: 35rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+}
+
+.input-cell-bd {
+  width: 100%;
+}
+
+
+.input-box {
+  border: 0;
+  outline: 0;
+  -webkit-appearance: none;
+  background-color: white;
+  padding-right: 20rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+  font-size: 40rpx;
+  width: 100%;
+  color: #555;
+}
+

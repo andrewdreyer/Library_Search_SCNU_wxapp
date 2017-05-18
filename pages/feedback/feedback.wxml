@@ -1,0 +1,30 @@
+<import src="../template/template.wxml"  />
+
+  <view class="input-cell">
+    <view class="input-cell-hd">
+      <text>姓名</text>
+    </view>
+    <view class="input-cell-bd">
+      <input bindinput="bindNameInput" bindblur="feedback" type="text" class="input-box" value="{{reader_name}}"  />
+    </view>
+  </view>
+
+  <view class="input-cell">
+    <view class="input-cell-hd">
+      <text>手机号码</text>
+    </view>
+    <view class="input-cell-bd">
+      <input bindinput="bindTelInput"  bindblur="feedback" type="text" class="input-box" value="{{reader_tel}}"  />
+    </view>
+  </view>
+
+  <view class="input-cell">
+    <view class="input-cell-hd">
+      <text>您的意见</text>
+    </view>
+    <view class="input-cell-bd">
+      <input bindinput="bindFeedbackInput" bindblur="feedback" type="text" class="input-box" value="{{book_name}}"  />
+    </view>
+  </view>
+
+  <template is="button_borrow" data="{{bindtapaction:'feedback', bcolor:button_bcolor, loading: loading, context:'提交'}}"  />
